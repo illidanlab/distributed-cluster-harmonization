@@ -1,0 +1,38 @@
+[
+    {
+        "sites": 20,
+        "samples_per_site": 20,
+        "features": 20,
+        "sites_per_cluster": 5,
+        "num_biological_covariate": 5
+    },
+    {
+        "sites": 25,
+        "samples_per_site": 25,
+        "features": 25,
+        "sites_per_cluster": 5,
+        "num_biological_covariate": 5
+    },
+    {
+        "sites": 30,
+        "samples_per_site": 30,
+        "features": 30,
+        "sites_per_cluster": 5,
+        "num_biological_covariate": 5
+    },
+    {
+        "sites": 35,
+        "samples_per_site": 35,
+        "features": 40,
+        "sites_per_cluster": 5,
+        "num_biological_covariate": 5
+    },
+    {
+        "sites": 40,
+        "samples_per_site": 40,
+        "features": 50,
+        "sites_per_cluster": 5,
+        "num_biological_covariate": 5
+    }
+]
+
