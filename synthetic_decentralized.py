@@ -116,8 +116,7 @@ for configuration in configurations:
     num_biological_covariate = configuration["num_biological_covariate"]
     
     accuracy_original, accuracy_cluster, accuracy_unharmonized, reconstruction_original, reconstruction_cluster, reconstruction_unharmonized = experiment(sites = sites, samples_per_site = samples_per_site, features = features, num_biological_covariate = num_biological_covariate, sites_per_cluster = sites_per_cluster)
-   
-
+    
     print("Synthetic data", syntheticDataNumber)
     print("Reconstruction:")
     print("Unharmonized: {:.2f}±{:.2f}".format(np.mean(reconstruction_unharmonized), np.var(reconstruction_unharmonized)))
