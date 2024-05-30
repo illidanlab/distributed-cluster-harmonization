@@ -1,13 +1,16 @@
 Distributed Harmonization: Federated Clustered Batch Effect Adjustment and Generalization
 ====================================================
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Official Code for Paper: "Distributed Harmonization: Federated Clustered Batch Effect Adjustment and Generalization" Bao Hoang, Yijiang Pang, Siqi Liang, Liang Zhan, Paul Thompson, Jiayu Zhou, *KDD* 2024.
 
-[paper](https://arxiv.org/abs/2403.07888) / [code](https://github.com/illidanlab/distributed-cluster-harmonization)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/illidanlab/distributed-cluster-harmonization)
+[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2405.15081)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
+
+![featured](Synthetic-Data-Results.png)
 
 Independent and identically distributed (i.i.d.) data is essential to many data analysis and modeling techniques. In the medical domain, collecting data from multiple sites or institutions is a common strategy that guarantees sufficient clinical diversity, determined by the decentralized nature of medical data. However, data from various sites are easily biased by the local environment or facilities, thereby violating the i.i.d. rule. A common strategy is to harmonize the site bias while retaining important biological information. The ComBat is among the most popular harmonization approaches and has recently been extended to handle distributed sites. However, when faced with situations involving newly joined sites in training or evaluating data from unknown/unseen sites, ComBat lacks compatibility and requires retraining with data from all the sites. The retraining leads to significant computational and logistic overhead that is usually prohibitive. In this work, we develop a novel Cluster ComBat harmonization algorithm, which leverages cluster patterns of the data in different sites and greatly advances the usability of ComBat harmonization. We use extensive simulation and real medical imaging data from ADNI to demonstrate the superiority of the proposed approach. Our codes are provided in https://github.com/illidanlab/distributed-cluster-harmonization.
 
