@@ -1,0 +1,9 @@
+[
+    {
+        "sites": 9,
+        "samples_per_site": 10,
+        "features": 20,
+        "sites_per_cluster": 3,
+        "num_biological_covariate": 5
+    }
+]
