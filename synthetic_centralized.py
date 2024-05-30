@@ -128,7 +128,6 @@ for configuration in configurations:
     features = configuration["features"]
     sites_per_cluster = configuration["sites_per_cluster"]
     num_biological_covariate = configuration["num_biological_covariate"]
-    print(sites, samples_per_site, features, sites_per_cluster, num_biological_covariate)
     
     accuracy_original, accuracy_cluster, accuracy_unharmonized, reconstruction_original, reconstruction_cluster, reconstruction_unharmonized = experiment(sites = sites, samples_per_site = samples_per_site, features = features, num_biological_covariate = num_biological_covariate, sites_per_cluster = sites_per_cluster)
 
@@ -147,4 +146,3 @@ for configuration in configurations:
     print()
 
     syntheticDataNumber += 1
-
