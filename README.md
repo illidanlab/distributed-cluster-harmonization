@@ -73,5 +73,10 @@ Here we provide several demos of synthetic data results from the paper. You can 
 
     - Run `python synthetic_distribution.py`.
 
+## References
+[1] https://github.com/andy1764/Distributed-ComBat
+
+[2] https://github.com/Jfortin1/neuroCombat/tree/ac82a067412078680973ddf72bd634d51deae735
+
 ## Acknowledgement
 This material is based in part upon work supported by the National Science Foundation under Grant IIS-2212174, IIS-1749940, IIS 2319450, IIS 2045848, Office of Naval Research N00014-24-1-2168, and National Institute on Aging (NIA) RF1AG072449, U01AG068057, National Institute of Mental Health RF1MH125928.
