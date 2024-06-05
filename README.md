@@ -10,7 +10,7 @@ Official Code for Paper: "Distributed Harmonization: Federated Clustered Batch E
 
 ## Overview
 
-![featured](Synthetic-Data-Results.png)
+![featured](Challenge.png)
 
 Independent and identically distributed (i.i.d.) data is essential to many data analysis and modeling techniques. In the medical domain, collecting data from multiple sites or institutions is a common strategy that guarantees sufficient clinical diversity, determined by the decentralized nature of medical data. However, data from various sites are easily biased by the local environment or facilities, thereby violating the i.i.d. rule. A common strategy is to harmonize the site bias while retaining important biological information. The ComBat is among the most popular harmonization approaches and has recently been extended to handle distributed sites. However, when faced with situations involving newly joined sites in training or evaluating data from unknown/unseen sites, ComBat lacks compatibility and requires retraining with data from all the sites. The retraining leads to significant computational and logistic overhead that is usually prohibitive. In this work, we develop a novel Cluster ComBat harmonization algorithm, which leverages cluster patterns of the data in different sites and greatly advances the usability of ComBat harmonization. We use extensive simulation and real medical imaging data from ADNI to demonstrate the superiority of the proposed approach. Our codes are provided in https://github.com/illidanlab/distributed-cluster-harmonization.
 
@@ -59,6 +59,8 @@ harmonized_data_test = distributedClusterComBat.harmonize(data_test, covars_test
 ```
 
 ## Demos
+![demos](Synthetic-Data-Results.png)
+
 Here we provide several demos of synthetic data results from the paper. You can change the json file of synthetic data's configuration in the folder SyntheticDataConfig to plot figures, or perform classification and regression tasks on different synthetic dataset.
 
 - **Reconstruction and Classification Task (Table 2 in the paper):**
